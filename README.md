@@ -21,7 +21,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusio
 Note that after running `webui.sh` , the installation of torch and torchvision will fail. we will need to install them into the virtual environment manually. To do so, switch to the virtual environment and install them using pip:
 ```bash
 cd stable-diffusion-webui
-source venv/bin/source
+source venv/bin/activate
 pip install torch torchvision
 ```
 After installing torch and torchvision, run the following command to launch, you also add `--listen` to access it from your local network.
