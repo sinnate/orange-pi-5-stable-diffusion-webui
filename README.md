@@ -2,9 +2,9 @@
 
 This guide outlines the steps to install Stable Diffusion WebUI on an Orange Pi 5. The instructions assume you are using Armbian with Rockship patch, but you can also use RebornOS or any official Orange Pi image.
 
-Note : I'm currently try make NPU works
+Note : I'm currently looking for a way to make RK NPU to make it work.
 
-it's take around 2min per step
+Reduce your resolution and use something like DPM fast, it will take at least 2-6min for a step to complete. 
 
 ## Dependencies
 
