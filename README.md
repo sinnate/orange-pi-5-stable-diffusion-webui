@@ -2,9 +2,9 @@
 
 This guide outlines the steps to install Stable Diffusion WebUI on an Orange Pi 5. The instructions assume you are using Armbian with Rockship patch, but you can also use RebornOS or any official Orange Pi image.
 
-## Why ?
+Note : I'm currently try make NPU works
 
-Orange pi 5 comes with built-in AI accelerator NPU with up to 6 TOPS, supports INT4/INT8/INT16 mixed operation.
+it's take around 2min per step
 
 ## Dependencies
 
@@ -25,7 +25,7 @@ pip install torch torchvision
 ```
 After installing torch and torchvision, run the following command to launch, you also add `--listen` to access it from your local network.
 ```bash
-./webui.sh --skip-torch-cuda-test  
+./webui.sh --skip-torch-cuda-test --no-half --use-cpu all
 ```
 In order to use Stable Diffusion WebUI, you will need to download Stable Diffusion models. One option is to download a pre-trained model from Hugging Face. For example, you can download the "openjourney" model by visiting https://huggingface.co/prompthero/openjourney.
 
