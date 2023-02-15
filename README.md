@@ -18,7 +18,7 @@ To install Stable Diffusion WebUI, run the following command:
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
 ```
-Note that after running `webui.sh`, the installation of torch and torchvision will fail. we will need to install them into the virtual environment manually. To do so, switch to the virtual environment and install them using pip:
+Note that after running 'webui.sh', the installation of torch and torchvision will fail. we will need to install them into the virtual environment manually. To do so, switch to the virtual environment and install them using pip:
 ```bash
 source venv/bin/source
 pip install torch torchvision
