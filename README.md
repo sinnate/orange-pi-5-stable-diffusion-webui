@@ -2,6 +2,10 @@
 
 This guide outlines the steps to install Stable Diffusion WebUI on an Orange Pi 5. The instructions assume you are using Armbian with Rockship patch, but you can also use RebornOS or any official Orange Pi image.
 
+## Why ?
+
+Orange pi 5 comes with built-in AI accelerator NPU with up to 6 TOPS, supports INT4/INT8/INT16 mixed operation.
+
 ## Dependencies
 
 The following dependencies need to be installed before proceeding:
