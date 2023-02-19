@@ -3,7 +3,7 @@
 This guide outlines the steps to install Stable Diffusion WebUI on an Orange Pi 5.
 Note : I'm currently looking for a way to make RK NPU to work with it.
 
-Reduce your resolution, it will take at least 2-6min for a step to complete. anything more 212x212 is **danger territory**
+Reduce your resolution, it will take at least 2-6min for a step to complete. anything more 400x400 is **danger territory**
 
 ## Dependencies
 
