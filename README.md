@@ -5,6 +5,8 @@ Note : I'm currently looking for a way to make RK NPU to work with it.
 
 Reduce your resolution, it will take at least 2-6min for a step to complete. anything more 400x400 is **danger territory**
 
+I'm using the `Orange pi 5 8G model`
+
 ## Dependencies
 
 The following dependencies need to be installed before proceeding:
