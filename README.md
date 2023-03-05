@@ -27,7 +27,7 @@ pip install torch torchvision
 ```
 After installing torch and torchvision, run the following command to launch, you also add `--listen` to access it from your local network.
 ```bash
-./webui.sh --skip-torch-cuda-test --use-cpu all
+./webui.sh --skip-torch-cuda-test --no-half --use-cpu all
 ```
 In order to use Stable Diffusion WebUI, you will need to download Stable Diffusion models. One option is to download a pre-trained model from Hugging Face. For example, you can download the "openjourney" model by visiting https://huggingface.co/prompthero/openjourney.
 
